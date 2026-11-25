@@ -1,25 +1,22 @@
 {
-    "version": "0.1.1",
-    "description": "PaperToBillion CLI — data saham BEI dari PTB di terminal",
-    "homepage": "https://papertobillion.com/help?feature=ai-mcp",
-    "license": "Apache-2.0",
+    "version": "0.1.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v0.1.1/ptb_0.1.1_windows_amd64.zip",
-            "hash": "5c28356f1e6692df480c47e0434c81772e64f17eb8e6fe77eb4411d4768da215"
+            "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v0.1.2/ptb_0.1.2_windows_amd64.zip",
+            "bin": [
+                "ptb.exe"
+            ],
+            "hash": "614e86f32c09b522e6a28290932183db19b60553e66277833f7bac96b8da1ff6"
         },
         "arm64": {
-            "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v0.1.1/ptb_0.1.1_windows_arm64.zip",
-            "hash": "f3dada57171c5a1b0e2bb062aff2924aa3a19d1df20f089e621d755a97261d22"
+            "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v0.1.2/ptb_0.1.2_windows_arm64.zip",
+            "bin": [
+                "ptb.exe"
+            ],
+            "hash": "1a887f97f9c2b3e5451626495cd8819cf02cd25abf5b0b0fc79e759b61e3ffa3"
         }
     },
-    "bin": "ptb.exe",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": { "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v$version/ptb_$version_windows_amd64.zip" },
-            "arm64": { "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v$version/ptb_$version_windows_arm64.zip" }
-        },
-        "hash": { "url": "$baseurl/checksums.txt" }
-    }
+    "homepage": "https://papertobillion.com/help?feature=ai-mcp",
+    "license": "Apache-2.0",
+    "description": "PaperToBillion CLI — data saham BEI dari PTB di terminal"
 }
