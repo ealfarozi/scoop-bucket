@@ -1,0 +1,25 @@
+{
+    "version": "0.1.1",
+    "description": "PaperToBillion CLI — data saham BEI dari PTB di terminal",
+    "homepage": "https://papertobillion.com/help?feature=ai-mcp",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v0.1.1/ptb_0.1.1_windows_amd64.zip",
+            "hash": "5c28356f1e6692df480c47e0434c81772e64f17eb8e6fe77eb4411d4768da215"
+        },
+        "arm64": {
+            "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v0.1.1/ptb_0.1.1_windows_arm64.zip",
+            "hash": "f3dada57171c5a1b0e2bb062aff2924aa3a19d1df20f089e621d755a97261d22"
+        }
+    },
+    "bin": "ptb.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": { "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v$version/ptb_$version_windows_amd64.zip" },
+            "arm64": { "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v$version/ptb_$version_windows_arm64.zip" }
+        },
+        "hash": { "url": "$baseurl/checksums.txt" }
+    }
+}
