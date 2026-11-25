@@ -1,19 +1,19 @@
 {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v0.1.2/ptb_0.1.2_windows_amd64.zip",
+            "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v0.1.3/ptb_0.1.3_windows_amd64.zip",
             "bin": [
                 "ptb.exe"
             ],
-            "hash": "614e86f32c09b522e6a28290932183db19b60553e66277833f7bac96b8da1ff6"
+            "hash": "7d8dd0b42e262a138f44b38039580892cf2743fdae262af64065d7a26219fd4d"
         },
         "arm64": {
-            "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v0.1.2/ptb_0.1.2_windows_arm64.zip",
+            "url": "https://github.com/ealfarozi/ptb-cli/releases/download/v0.1.3/ptb_0.1.3_windows_arm64.zip",
             "bin": [
                 "ptb.exe"
             ],
-            "hash": "1a887f97f9c2b3e5451626495cd8819cf02cd25abf5b0b0fc79e759b61e3ffa3"
+            "hash": "81e3287f2da2e8d1a82e4d03a5f722a23a24672ae1702e74d742964d909ffb4e"
         }
     },
     "homepage": "https://papertobillion.com/help?feature=ai-mcp",
